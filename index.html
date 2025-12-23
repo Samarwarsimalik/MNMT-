@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MNMT UAE – Polished Homepage</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Swiper Slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+
+ 
+</head>
+
+<body>
+    <!-- Menu toggle button -->
+  <button id="menu-btn" aria-label="Toggle menu">
+    <i class="fa fa-bars"></i>
+  </button>
+
+  <!-- Mobile Menu Panel -->
+  <nav class="mobile-menu-panel" id="mobile-menu-panel" aria-label="Mobile navigation" aria-hidden="true">
+<ul>
+  <li><a href="#">Special Prices</a></li>
+  <li><a href="#">All products</a></li>
+  <li><a href="#">About us</a></li>
+  <li><a href="#">Terms Of Use</a></li>
+  <li><a href="#">Terms &amp; Conditions</a></li>
+  <li class="current-menu-item"><a href="#">FAQs</a></li>
+  <li><a href="#">Contact</a></li>
+  <li><a href="#">Wishlist</a></li>
+
+</ul>
+
+  </nav>
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay" tabindex="-1" aria-hidden="true"></div>
+   <div class="top-bar">
+    <div class="container1" style="display: flex; justify-content: space-between;">
+      
+      <div class="right">
+        <a href="/orders/tracking">Track Order</a>
+        <a href="/wishlist">Wishlist</a>
+        <a href="/login">Login</a>
+      </div>
+      <div class="left">
+      +971 50 481 8586 <strong>Support 24/7</strong>
+      </div>
+    </div>
+  </div>
+  <header>
+    <div class="nav">
+      <div class="logo">
+        <img src="http://www.mnmtuae.com/storage/general/logomnm.png" alt="MNMT - Trading LLC" />
+      </div>
+      <!-- <div class="search">
+        <input type="text" placeholder="Search products..." />
+        <button><i class="fa fa-search"></i></button>
+      </div> -->
+      <form class="search-bar" action="/products">
+        <select>
+          <option>All Categories</option>
+          <option value="computer-accessories">COMPUTER & ACCESSORIES</option>
+<option value="desktops">&nbsp;&nbsp;Desktops</option>
+<option value="web-cam">&nbsp;&nbsp;Web Cam</option>
+<option value="keyboard">&nbsp;&nbsp;Keyboard</option>
+<option value="graphics-cards">&nbsp;&nbsp;Graphics Cards</option>
+<option value="mouse">&nbsp;&nbsp;Mouse</option>
+<option value="memory">&nbsp;&nbsp;Memory</option>
+<option value="laptops">&nbsp;&nbsp;Laptops</option>
+
+<option value="access-control-time-attendance">ACCESS CONTROL & TIME ATTENDANCE</option>
+<option value="face-recognition">&nbsp;&nbsp;face recognition</option>
+
+<option value="mobiles-gadgets">MOBILES & GADGETS</option>
+<option value="iphone">&nbsp;&nbsp;iPhone</option>
+<option value="iphone-11-series">&nbsp;&nbsp;&nbsp;&nbsp;iPhone 11 Series</option>
+<option value="iphone-12-series">&nbsp;&nbsp;&nbsp;&nbsp;iPhone 12 Series</option>
+<option value="iphone-13-series">&nbsp;&nbsp;&nbsp;&nbsp;iPhone 13 Series</option>
+<option value="iphone-14-series">&nbsp;&nbsp;&nbsp;&nbsp;iPhone 14 Series</option>
+<option value="iphone-15-series">&nbsp;&nbsp;&nbsp;&nbsp;iPhone 15 Series</option>
+<option value="iphone-16-series">&nbsp;&nbsp;&nbsp;&nbsp;iPhone 16 Series</option>
+
+<option value="android">&nbsp;&nbsp;Android</option>
+<option value="samsung">&nbsp;&nbsp;&nbsp;&nbsp;Samsung</option>
+
+<option value="tablets">&nbsp;&nbsp;Tablets</option>
+<option value="huawei">&nbsp;&nbsp;&nbsp;&nbsp;Huawei</option>
+
+<option value="electronics">ELECTRONICS</option>
+<option value="audio">&nbsp;&nbsp;Audio</option>
+<option value="television">&nbsp;&nbsp;Television</option>
+<option value="watches">&nbsp;&nbsp;Watches</option>
+
+<option value="network-accessories">NETWORK & ACCESSORIES</option>
+<option value="racks-cabinets">&nbsp;&nbsp;Racks & Cabinets</option>
+<option value="cables">&nbsp;&nbsp;Cables</option>
+<option value="switches">&nbsp;&nbsp;Switches</option>
+<option value="routers">&nbsp;&nbsp;Routers</option>
+
+        </select>
+        <input type="text" placeholder="Search for products...">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+
+      <div class="icons">
+        <i class="fa fa-user"></i>
+        <i class="fa fa-heart"></i>
+        <i class="fa fa-shopping-cart"></i>
+      </div>
+    </div>
+    <nav class="main-menu">
+      <ul class="menu">
+
+        <li class="menu-item mega">
+          <a href="#"><i class="fa fa-bars"></i>
+Shop by Category</a>
+
+          <div class="mega-menu">
+            <div class="mega-grid">
+
+              <div class="mega-col">
+                <h4>Computer & Accessories</h4>
+                <ul>
+                  <li><a href="#">Desktops</a></li>
+                  <li><a href="#">Web Cam</a></li>
+                  <li><a href="#">Keyboard</a></li>
+                  <li><a href="#">Graphics Cards</a></li>
+                  <li><a href="#">Mouse</a></li>
+                  <li><a href="#">Memory</a></li>
+                  <li><a href="#">Laptops</a></li>
+
+                </ul>
+              </div>
+
+              <div class="mega-col">
+                <h4>ACCESS CONTROL & TIME ATTENDANCE</h4>
+                <ul>
+                  <li><a href="#">face recognition</a></li>
+
+                </ul>
+              </div>
+              <div class="mega-col">
+                <h4>Mobiles & Gadgets</h4>
+                <ul>
+                  <li><a href="#"><b>iPhone</b></a>
+                    <ul>
+                      <li><a href="#">iPhone 11 Series</a></li>
+                      <li><a href="#">iPhone 12 Series</a></li>
+                      <li><a href="#">iPhone 13 Series</a></li>
+                      <li><a href="#">iPhone 14 Series</a></li>
+                      <li><a href="#">iPhone 15 Series</a></li>
+                      <li><a href="#">iPhone 16 Series</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#"><b>Android</b></a>
+                    <ul>
+                      <li><a href="#">Samsung</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#"><b>Tablets</b></a>
+                    <ul>
+                      <li><a href="#">Huawei</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="mega-col">
+                <h4>Electronics</h4>
+                <ul>
+                  <li><a href="#">Audio</a></li>
+                  <li><a href="#">Television</a></li>
+                  <li><a href="#">Watches</a></li>
+                </ul>
+              </div>
+
+              <div class="mega-col">
+                <h4>Network & Accessories</h4>
+                <ul>
+                  <li><a href="#">Racks & Cabinets</a></li>
+                  <li><a href="#">Cables</a></li>
+                  <li><a href="#">Switches</a></li>
+                  <li><a href="#">Routers</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </li>
+
+        <li class="menu-item"><a href="#">Special Prices</a></li>
+        <li class="menu-item"><a href="#">All Products</a></li>
+        <li class="menu-item"><a href="#">About Us</a></li>
+        <li class="menu-item"><a href="#">Terms Of Use</a></li>
+        <li class="menu-item"><a href="#">Terms and Conditions</a></li>
+
+        <li class="menu-item"><a href="#">FAQs</a></li>
+        <li class="menu-item"><a href="#">Contact</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <!-- Hero Slider -->
+  <div class="swiper hero">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url('https://images.pexels.com/photos/18105/pexels-photo.jpg')">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>Electronics & Technology Solutions</h1>
+          <p>General Trading & Technologies Company – UAE</p>
+          <a href="#" class="btn btn-primary">Shop Products</a>
+          <a href="#" class="btn btn-outline">Contact Sales</a>
+        </div>
+      </div>
+      
+      <div class="swiper-slide"
+        style="background-image:url('https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg')">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>Corporate & Bulk Orders</h1>
+          <p>Trusted brands • Secure delivery</p>
+          <a href="#" class="btn btn-primary">View Catalog</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Trust -->
+  <section class="trust">
+    <div class="trust-item">
+      <i class="fa-solid fa-truck-fast"></i>
+      <h4>Free Shipping</h4>
+      <p>For all orders over AED 200</p>
+    </div>
+    <div class="trust-item">
+      <i class="fa-solid fa-rotate-left"></i>
+      <h4>1 & 1 Returns</h4>
+      <p>Cancellation after 1 day</p>
+    </div>
+    <div class="trust-item">
+      <i class="fa-solid fa-shield-halved"></i>
+      <h4>100% Secure Payment</h4>
+      <p>Guaranteed secure payments</p>
+    </div>
+    <div class="trust-item">
+      <i class="fa-solid fa-headset"></i>
+      <h4>24/7 Dedicated Support</h4>
+      <p>Anywhere & anytime</p>
+    </div>
+    <div class="trust-item">
+      <i class="fa-solid fa-tags"></i>
+      <h4>Daily Offers</h4>
+      <p>Discounts up to 70% OFF</p>
+    </div>
+  </section>
+
+  <!-- deal of the day -->
+  <section class="deal-day">
+    <div class="container">
+
+      <div class="deal-card">
+        <!-- Left -->
+        <div class="deal-image">
+          <span class="deal-badge">🔥 DEAL OF THE DAY</span>
+          <img src="https://images.pexels.com/photos/7974/pexels-photo.jpg" alt="Deal Product">
+        </div>
+
+        <!-- Right -->
+        <div class="deal-content">
+          <h3>Business Laptop – Limited Time Offer</h3>
+          <p class="deal-desc">
+            High-performance laptop perfect for office & business use.
+          </p>
+
+          <div class="deal-timer">
+            <div><strong id="dd-hours">00</strong><span>Hours</span></div>
+            <div><strong id="dd-minutes">00</strong><span>Min</span></div>
+            <div><strong id="dd-seconds">00</strong><span>Sec</span></div>
+          </div>
+
+
+
+          <a href="#" class="deal-btn">Grab This Deal</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section>
+    <div class="container">
+      <h2 style="text-align: left;">Featured Products</h2>
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/7974/pexels-photo.jpg" alt="Business Laptop" />
+              <div class="product-info">
+                <h4>Business Laptop</h4>
+                <div class="price">AED 2,499</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/459653/pexels-photo-459653.jpeg" alt="Office Desktop" />
+              <div class="product-info">
+                <h4>Office Desktop</h4>
+                <div class="price">AED 1,899</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/7974/pexels-photo.jpg" alt="Business Laptop" />
+              <div class="product-info">
+                <h4>Business Laptop</h4>
+                <div class="price">AED 2,499</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/459653/pexels-photo-459653.jpeg" alt="Office Desktop" />
+              <div class="product-info">
+                <h4>Office Desktop</h4>
+                <div class="price">AED 1,899</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/7974/pexels-photo.jpg" alt="Business Laptop" />
+              <div class="product-info">
+                <h4>Business Laptop</h4>
+                <div class="price">AED 2,499</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/459653/pexels-photo-459653.jpeg" alt="Office Desktop" />
+              <div class="product-info">
+                <h4>Office Desktop</h4>
+                <div class="price">AED 1,899</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/7974/pexels-photo.jpg" alt="Business Laptop" />
+              <div class="product-info">
+                <h4>Business Laptop</h4>
+                <div class="price">AED 2,499</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/459653/pexels-photo-459653.jpeg" alt="Office Desktop" />
+              <div class="product-info">
+                <h4>Office Desktop</h4>
+                <div class="price">AED 1,899</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <!-- Add more products here as needed -->
+        </div>
+        <div class="nbtn">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Categories -->
+  <section>
+    <div class="container">
+      <h2 style="text-align: left;">Shop by Category</h2>
+      <div class="swiper category-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="category-card">
+              <!-- Replace below src with your image path or URL -->
+              <img src="https://www.shutterstock.com/image-illustration/collection-18-diverse-icons-representing-260nw-2676935379.jpg" alt="Computer & Accessories" />
+              COMPUTER & ACCESSORIES
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="category-card">
+              <img
+                src="https://www.shutterstock.com/image-vector/attendance-machine-icon-set-fingerprint-600nw-2528700159.jpg"
+                alt="Access Control & Time Attendance" />
+              ACCESS CONTROL & TIME ATTENDANCE
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="category-card">
+              <img
+                src="https://static.vecteezy.com/system/resources/thumbnails/071/961/274/small/personal-electronic-devices-and-gadgets-icon-set-black-symbols-of-modern-technology-vector.jpg"
+                alt="Mobiles & Gadgets" />
+              Mobiles & gadgets
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="category-card">
+              <img
+                src="https://www.shutterstock.com/image-vector/modern-electronics-icon-pack-vector-260nw-2688524995.jpg"
+                alt="Electronics" />
+              Electronics
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="category-card">
+              <img
+                src="https://www.shutterstock.com/image-vector/router-flat-icon-illustration-isolated-260nw-2699139401.jpg"
+                alt="Network & Accessories" />
+              Network & Accessories
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="category-card">
+              <img
+                src="https://media.istockphoto.com/id/2187644656/vector/collection-of-different-home-goods-flea-market-garage-sale-stickers-icons-elements.jpg?s=612x612&w=0&k=20&c=fhUJY4rUjurFRRUilAukOiGOz6ZVbkhn7IQdhVAFdJc="
+                alt="Used & Refurbished Items" />
+              Used & Refurbished Items
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+  <!-- Products -->
+  <section>
+    <div class="container">
+      <h2 style="text-align: left;">Essential Products</h2>
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/7974/pexels-photo.jpg" alt="Business Laptop" />
+              <div class="product-info">
+                <h4>Business Laptop</h4>
+                <div class="price">AED 2,499</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/459653/pexels-photo-459653.jpeg" alt="Office Desktop" />
+              <div class="product-info">
+                <h4>Office Desktop</h4>
+                <div class="price">AED 1,899</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/7974/pexels-photo.jpg" alt="Business Laptop" />
+              <div class="product-info">
+                <h4>Business Laptop</h4>
+                <div class="price">AED 2,499</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/459653/pexels-photo-459653.jpeg" alt="Office Desktop" />
+              <div class="product-info">
+                <h4>Office Desktop</h4>
+                <div class="price">AED 1,899</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/7974/pexels-photo.jpg" alt="Business Laptop" />
+              <div class="product-info">
+                <h4>Business Laptop</h4>
+                <div class="price">AED 2,499</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/459653/pexels-photo-459653.jpeg" alt="Office Desktop" />
+              <div class="product-info">
+                <h4>Office Desktop</h4>
+                <div class="price">AED 1,899</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/7974/pexels-photo.jpg" alt="Business Laptop" />
+              <div class="product-info">
+                <h4>Business Laptop</h4>
+                <div class="price">AED 2,499</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://images.pexels.com/photos/459653/pexels-photo-459653.jpeg" alt="Office Desktop" />
+              <div class="product-info">
+                <h4>Office Desktop</h4>
+                <div class="price">AED 1,899</div>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <!-- Add more products here as needed -->
+        </div>
+        <div class="nbtn">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <section class="top-offers-clean">
+    <div class="container-xxxl">
+
+      <div class="section-head">
+        <h2>Top Offers</h2>
+        <a href="#">View All <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="offers-grid">
+        <article class="offer-card-clean">
+          <img src="http://www.mnmtuae.com/storage/blogs/0-office-essentials-3fold-banner-02.webp">
+          <div class="offer-text">
+            <span>May 27, 2024</span>
+            <h4>Ultimate Deals On Computing</h4>
+          </div>
+        </article>
+
+        <article class="offer-card-clean">
+          <img src="http://www.mnmtuae.com/storage/blogs/0-iphone-top-picks-3fold-banner-01.webp">
+          <div class="offer-text">
+            <span>May 27, 2024</span>
+            <h4>Top Deals On Mobiles</h4>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </section>
+  <!-- reviews  -->
+  <section class="reviews">
+    <div class="container">
+
+      <div class="reviews-header">
+        <h2>What Our Customers Say</h2>
+        <p>Trusted by businesses & individuals across UAE</p>
+      </div>
+
+      <div class="reviews-grid">
+
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">
+            Excellent service and fast delivery. Products are genuine and well packed.
+          </p>
+          <div class="review-user">
+            <strong>Ahmed R.</strong>
+            <span>Dubai</span>
+          </div>
+          <span class="verified">✔ Verified Purchase</span>
+        </div>
+
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">
+            Best prices for office laptops. Support team was very helpful.
+          </p>
+          <div class="review-user">
+            <strong>Sara K.</strong>
+            <span>Abu Dhabi</span>
+          </div>
+          <span class="verified">✔ Verified Purchase</span>
+        </div>
+
+        <div class="review-card">
+          <div class="stars">★★★★☆</div>
+          <p class="review-text">
+            Smooth ordering experience. Would recommend for bulk purchases.
+          </p>
+          <div class="review-user">
+            <strong>Mohammed A.</strong>
+            <span>Sharjah</span>
+          </div>
+          <span class="verified">✔ Verified Purchase</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Brands -->
+  <section class="brandsection">
+    <div class="container">
+      <div class="swiper brand-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide brand-slide"><img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/ad/HP_logo_2012.svg" alt="HP Logo" /></div>
+          <div class="swiper-slide brand-slide"><img
+              src="https://upload.wikimedia.org/wikipedia/commons/1/18/Dell_logo_2016.svg" alt="Dell Logo" /></div>
+
+          <div class="swiper-slide brand-slide">
+            <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/apple-logo.png" alt="Apple">
+          </div>
+          <div class="swiper-slide brand-slide">
+            <img
+              src="https://images.samsung.com/is/image/samsung/assets/us/about-us/brand/logo/mo/360_197_1.png?$720_N_PNG$"
+              alt="Samsung">
+
+          </div>
+          <div class="swiper-slide brand-slide">
+            <img src="https://cdn.freebiesupply.com/images/thumbs/2x/lenovo-logo.png" alt="Lenovo">
+
+          </div>
+          <div class="swiper-slide brand-slide">
+            <img src="https://logos-world.net/wp-content/uploads/2020/07/Asus-Logo.png" alt="ASUS">
+
+
+          </div>
+          <div class="swiper-slide brand-slide">
+            <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/microsoft-logo.png" alt="Microsoft">
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="app-feature">
+    <div class="app-feature-card">
+
+      <span class="app-badge">MNMT UAE APP</span>
+
+      <h2>Shop Faster.<br>Smarter.<br>Anywhere.</h2>
+
+      <p>
+        Get exclusive offers & faster checkout.<br>
+        Available on iOS & Android devices.
+      </p>
+
+      <div class="store-buttons">
+        <a href="#">
+          <img src="http://www.mnmtuae.com/storage/general/app-ios-1.png" alt="iOS App">
+        </a>
+        <a href="#">
+          <img src="http://www.mnmtuae.com/storage/general/app-android-1.png" alt="Android App">
+        </a>
+      </div>
+
+    </div>
+  </section>
+  <!-- newsletter -->
+  <section class="newsletter">
+    <div class="newsletter-box">
+
+      <div class="newsletter-text">
+        <h3>Stay Updated with MNMT UAE</h3>
+        <p>
+          Get exclusive deals, new arrivals & special offers directly in your inbox.
+        </p>
+        <span>🔒 We respect your privacy. No spam.</span>
+      </div>
+
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer-containers">
+
+      <div class="footer-grid">
+
+        <!-- Company -->
+        <div>
+          <div class="footer-logo">MNMT – Your Online Store</div>
+          <p style="padding-bottom: 10px;">MNMT is a General Trading & Technologies Company</p>
+
+          <div class="contact-item"><i class="fas fa-phone"></i> <strong>Hotline 24/7: </strong> +971 50 481 8586</div>
+          <div class="contact-item"><i class="fas fa-map-marker-alt"></i> Dubai / Abu Dhabi, UAE</div>
+          <div class="contact-item"><i class="fas fa-envelope"></i> support@mnmtuae.com</div>
+          <div class="contact-item"><i class="fas fa-clock"></i> Mon - Sat: 08:00 - 05:00</div>
+        </div>
+
+        <div>
+          <h5 class="footer-title">Useful Links</h5>
+          <ul>
+            <li><a href="#">Terms Of Use</a></li>
+            <li><a href="#">Refund Policy</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="footer-title">Help Center</h5>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Affiliate</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="footer-title">Business</h5>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">My Account</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="footer-title">Categories</h5>
+          <ul>
+            <li><a href="#">Computer & Accessories</a></li>
+            <li><a href="#">Mobile & Gadgets</a></li>
+            <li><a href="#">Electronics</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-top">
+        <div>
+          <h5 class="footer-title">Accepted Payments</h5>
+          <img src="http://www.mnmtuae.com/storage/general/footer-payments-1.png" alt="">
+        </div>
+
+        <div>
+
+        </div>
+      </div>
+
+      <div class="bottom-bar">
+        <p>© 2025 MNMT. All Rights Reserved.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    // Hero slider
+    new Swiper('.hero', {
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      speed: 800,
+      effect: 'fade',
+      fadeEffect: { crossFade: true },
+    });
+
+    // Category slider with navigation buttons
+    new Swiper('.category-slider', {
+      slidesPerView: 6,
+      spaceBetween: 20,
+      breakpoints: {
+        0: { slidesPerView: 1.2 },
+        768: { slidesPerView: 4 },
+        1024: { slidesPerView: 6 }
+      },
+      navigation: {
+        nextEl: '.category-slider .swiper-button-next',
+        prevEl: '.category-slider .swiper-button-prev',
+      },
+    });
+
+    // Products slider
+    new Swiper('.product-slider', {
+      slidesPerView: 4,
+      spaceBetween: 25,
+      breakpoints: {
+        0: { slidesPerView: 1 },
+        768: { slidesPerView: 2 },
+        1024: { slidesPerView: 4 }
+      },
+      navigation: {
+        nextEl: '.product-slider .swiper-button-next',
+        prevEl: '.product-slider .swiper-button-prev',
+      },
+    });
+
+    // Brands slider
+    new Swiper('.brand-slider', {
+      slidesPerView: 5,
+      loop: true,
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        0: { slidesPerView: 2 },
+        768: { slidesPerView: 4 },
+        1024: { slidesPerView: 5 }
+      }
+    });
+  </script>
+  <script>
+    // ===== DEAL OF THE DAY TIMER =====
+
+    // Set deal end time (example: today + 6 hours)
+    const dealEndTime = new Date();
+    dealEndTime.setHours(dealEndTime.getHours() + 6);
+
+    function updateDealTimer() {
+      const now = new Date().getTime();
+      const distance = dealEndTime - now;
+
+      if (distance < 0) {
+        document.getElementById("dd-hours").innerText = "00";
+        document.getElementById("dd-minutes").innerText = "00";
+        document.getElementById("dd-seconds").innerText = "00";
+        return;
+      }
+
+      const hours = Math.floor((distance / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((distance / (1000 * 60)) % 60);
+      const seconds = Math.floor((distance / 1000) % 60);
+
+      document.getElementById("dd-hours").innerText =
+        hours.toString().padStart(2, "0");
+      document.getElementById("dd-minutes").innerText =
+        minutes.toString().padStart(2, "0");
+      document.getElementById("dd-seconds").innerText =
+        seconds.toString().padStart(2, "0");
+    }
+
+    updateDealTimer();
+    setInterval(updateDealTimer, 1000);
+  </script>
+
+
+
+
+
+ <script>
+    const mobileMenu = document.getElementById('mobile-menu-panel');
+    const overlay = document.getElementById('overlay');
+    const menuBtn = document.getElementById('menu-btn');
+
+    menuBtn.addEventListener('click', () => {
+      if (mobileMenu.classList.contains('open')) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+
+    function openMenu() {
+      mobileMenu.classList.add('open');
+      overlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      mobileMenu.setAttribute('aria-hidden', 'false');
+      overlay.setAttribute('aria-hidden', 'false');
+    }
+
+    function closeMenu() {
+      mobileMenu.classList.remove('open');
+      overlay.classList.remove('active');
+      document.body.style.overflow = '';
+      mobileMenu.setAttribute('aria-hidden', 'true');
+      overlay.setAttribute('aria-hidden', 'true');
+    }
+
+    overlay.addEventListener('click', closeMenu);
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && mobileMenu.classList.contains('open')) {
+        closeMenu();
+      }
+    });
+  </script>
+
+</body>
+
+</html>
