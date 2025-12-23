@@ -973,15 +973,16 @@ div#swiper-wrapper-5f8d412a5415ce65 {
     .top-bar{
       padding: 10px 45px;
   background:#E6A84F;
-  color:#fff;
+  color:black;
   font-size:13px;
 }
 .top-bar a{
-  color:#ffffff;
+  color:black;
   text-decoration: none;
   margin-left:16px;
 }
-.top-bar a:hover{color:var(--accent);}
+.top-bar a:hover{color:black;
+                }
 .search-bar{
   flex:1;
   margin:0 40px;
@@ -1105,4 +1106,5 @@ div#swiper-wrapper-5f8d412a5415ce65 {
     #menu-btn {
       display: none;
     }
+
 
