@@ -972,7 +972,7 @@ div#swiper-wrapper-5f8d412a5415ce65 {
     }
     .top-bar{
       padding: 10px 45px;
-  background:var(--dark);
+  background:#E6A84F;
   color:#fff;
   font-size:13px;
 }
@@ -1105,3 +1105,4 @@ div#swiper-wrapper-5f8d412a5415ce65 {
     #menu-btn {
       display: none;
     }
+
